@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#navbar{
+    /* font-family: 'Srisakdi', cursive; */
+    background-color: #090909;
+  
+   height: 120px;
+   padding: 30px;
+   font-size: 1.5em;
+   
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+}
+#navbar li{
+    list-style: none;
+    margin: 0px 20px 0px 1px;
+   
+    border-radius: 4px;
+   
+}
+#navbar li a{
+    color: white;
+   
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    transition-property: all;
+}
+
+#navbar li a:hover{
+   background-color: #cad7d5;
+width: 30%;
+   color: rgb(18, 18, 19);
+   transition-duration: .5s;
+}
+#logo{
+    /* border: 2px solid rgb(224, 214, 214); */
+    display: flex;
+    color: rgb(250, 249, 248);
+    margin: 0px 100px;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 20px;
+    /* padding: 20px; */
+}
+#logo img{
+    height: 60px;
+    width: 80px;
+    filter: invert(2);
+    /* margin: 10px */
+    /* padding: 10px;    */
+}
+
+
+#introsection{
+height: 500px;
+/* background-color: rgb(16, 151, 16); */
+background: url("/static/bg1.jpg") no-repeat center center/cover;
+/* text-align: center; */
+color: rgb(13, 17, 17);
+
+font-size: 4rem;
+/* opacity: .8; */
+/* font-family: 'Permanent Marker', cursive; */
+}
+
+#missionsection{
+ 
+           /* background-color: rgb(54, 27, 27);  */
+           
+}
+
+#missionsection h2{
+ 
+            display:flex;
+            padding-top: 20px;
+            font-size: 3em;
+            
+            justify-content: center;    
+           
+}
+.card{
+    display: inline-block;
+    flex-direction: row;
+    background-color: rgb(241, 235, 235);
+    justify-content: center ;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    height: 250px;
+    margin: 40px 40px
+}
+.card h3{
+   text-align: center;
+   padding: 20px;
+   font-size: 1.5em;
+   /* margin: 20px; */
+   /* background-color: cadetblue; */
+}
+.card p{
+    align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   /* background-color: chartreuse; */
+   /* font-size: 1rem; */
+   font-size: 15px;
+  
+}
+
+#sponsersection{
+    height: 400px;
+    background-color: rgb(174, 184, 174);
+   
+}
+
+#sponsersection h2{
+    /* background-color: rgb(211, 75, 75); */
+    display:flex;
+    padding-top: 30px;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;    
+   
+}
+#sponsers{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.splogo{
+    /* border: 2px solid black ; */
+    border-radius: 5px;
+    height: 150px;
+    width: 20%;
+ width: 200px;
+ margin: 20px;
+}
+
+#foooter{
+    height: 70px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: first baseline;
+    padding: 30px;
+    font-size: 14px;
+    color: white;
+}
